@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache / build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Streamlit secrets and local data
+.streamlit/secrets.toml
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local datasets (keep sample data out of version control by default)
+data/
+*.csv
+*.xlsx
+*.xls
+!sample_data/*.csv
